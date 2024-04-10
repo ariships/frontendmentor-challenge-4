@@ -1,0 +1,139 @@
+*{
+    margin: 10px auto;
+}
+body{
+    background-color: hsl(30, 54%, 90%);
+}
+.container{
+    width: 70vh;
+    height: auto;
+    background-color: hsl(0, 0%, 100%);
+    padding: 32px;
+    border-radius: 3vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+.img img{
+    width: 100%;
+    position: center;
+    border-radius: 1vh;
+}
+h1.dish{
+    font-family: Young Serif, sans-serif;
+    font-size: 38px;
+    font-weight: 400;
+    color: hsl(24, 5%, 18%);
+    margin-top: 3vh;
+}
+p.dish-des{
+    font-family: Outfit, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: hsl(30, 10%, 34%);
+    margin-top: 2vh;
+}
+.prep-box{
+    width: 90%;
+    margin-top: 3vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 2vh;
+    font-family: Outfit, sans-serif;
+
+}
+.prep-box ul.prep h2{
+    font-size: 18px;
+    font-weight: 600;
+    color: hsl(332, 51%, 32%);
+
+}
+.prep-box ul.prep li{
+    color: hsl(30, 10%, 34%);
+    font-size: 14px;
+    list-style-position: inside;
+    font-weight: 400;
+    
+}
+.prep-box ul.prep li span.prep__main{
+    font-weight: 600;
+}
+h2{
+    font-family: Young Serif, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);    
+}
+.ingredient-section{
+    margin-top: 3vh;
+    width: 100%;
+    padding: 0;
+    border-bottom: 1px solid;
+    border-color: hsl(30, 18%, 87%);
+    padding-bottom: 3vh;
+
+}
+.ingredient-section ul.ingredients{
+    font-family: Outfit, sans-serif;
+    color: hsl(30, 10%, 34%);
+    font-size: 14px;
+    list-style-position: inside;
+    font-weight: 400;
+}
+.instruction-section{
+    margin-top: 3vh;
+    width: 100%;
+    border-bottom: 1px solid;
+    border-color: hsl(30, 18%, 87%);
+    padding-bottom: 3vh;
+
+}
+
+.instruction-section ol{
+    font-family: Outfit, sans-serif;
+    font-size: 14px;
+    list-style-position: inside;
+}
+ol li{
+    font-weight: 700;
+    color: hsl(14, 45%, 36%);
+    font-size: 12px;
+}
+
+
+span.instructions__main{
+    font-weight: 600;
+    margin-left: 1rem;
+    color: hsl(30, 10%, 34%);
+    font-size: 14px;
+}
+span.instructions__secondary{
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+    font-size: 14px;
+}
+.nutrition-section{
+    margin-top: 3vh;
+}
+.nutrition-section p{
+    font-family: Outfit, sans-serif;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+
+}
+.nutrition-section table {
+    width: 100%;
+    font-family: Outfit, sans-serif;
+}
+td{
+    border-bottom: 1px solid;
+    border-color: hsl(30, 18%, 87%);
+}
+td.td1{
+    color: hsl(30, 10%, 34%);
+    font-weight: 400;
+}
+td.td2{
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+}
